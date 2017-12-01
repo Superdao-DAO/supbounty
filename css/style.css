@@ -216,6 +216,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7618b', end
   height: 15px;
 }
 
+.tooltip_templates{
+  display:none;
+}
+
 /*smgeneralBtn*/
 .smgeneralBtn{border:0;}
 

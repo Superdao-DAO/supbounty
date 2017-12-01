@@ -27,6 +27,9 @@
 	<meta content="" name="Description">
 	<!-- fav icon -->
 	<link href="" rel="shortcut icon">
+	<!-- tooltipster -->
+	<link href="css/tooltipster.bundle.min.css" rel="stylesheet" type="text/css">
+	<link href="css/themes/tooltipster-sideTip-punk.min.css" rel="stylesheet" type="text/css">
 	<!-- css => Vendor sheet -->
 	<link href="css/vendor.min.css" media="screen" rel="stylesheet" type="text/css">
 	<!-- css => style sheet -->
@@ -60,7 +63,12 @@
 								dapps Pokereum and other dapps in stealth development. At the initial and current state of SuperDAO, SUP are called
 								promissory tokens. You can earn SUP bounties by doing valuable peer reviewed tasks for the organization.
 							</p>
-							<button class="generalBtn">Earn Superneum Bounties</button>
+							<button class="generalBtn" data-tooltip-content="#tooltip_content">Earn Superneum Bounties</button>
+							<div class="tooltip_templates">
+							    <span id="tooltip_content">
+							        <img src="images/icons/calenderIcon.png" style="float:left;margin-right:1.5rem;" /> <strong id="bounty_date"></strong>
+							    </span>
+							</div>
 						</div><!-- end of sectionTitle -->
 					</div><!-- end of col12 -->
 				</div><!-- end of row -->
@@ -175,17 +183,17 @@
 
 						<ul class="logoList text-center">
 							<li>
-								<a href="#">
+								<a href="https://themerkle.com/?s=superdao">
 									<img src="images/logo/01.png" alt="Logo">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="http://bitcoinist.com/tag/superdao/">
 									<img src="images/logo/02.png" alt="Logo">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://cointelegraph.com/tags/superdao">
 									<img src="images/logo/03.png" alt="Logo">
 								</a>
 							</li>
@@ -211,7 +219,7 @@
 							<div class="ourTeamMembers clearfix owl-carousel owl-theme">
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Ola.jpg" alt="Oladapo Ajayi">
 											</div>
@@ -225,7 +233,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Patrick.jpg" alt="Patrick Mazotta">
 											</div>
@@ -239,7 +247,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Jermaine.jpg" alt="Jermaine Encarnacion">
 											</div>
@@ -253,7 +261,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Panos.jpg" alt="Panos Papantoniou">
 											</div>
@@ -267,7 +275,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Archil.jpg" alt="Archil Phanchulidze">
 											</div>
@@ -281,7 +289,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Adibas03.jpg" alt="Anthony Adegbemi">
 											</div>
@@ -295,7 +303,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/yemi.jpg" alt="Babayemi Olulana">
 											</div>
@@ -309,7 +317,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/mike.jpg" alt="Mikhail Slabodzich">
 											</div>
@@ -323,7 +331,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/esco.jpg" alt="Esco Obong">
 											</div>
@@ -337,7 +345,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Aaron.jpg" alt="Aaron Vasquez">
 											</div>
@@ -351,7 +359,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Cristian.jpg" alt="Cristian">
 											</div>
@@ -365,7 +373,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Edmundmai_360.jpg" alt="Edmund Mai">
 											</div>
@@ -379,7 +387,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Sheraz.jpg" alt="Sheraz Arshad">
 											</div>
@@ -393,7 +401,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Tim.jpg" alt="Hatim Khomsi">
 											</div>
@@ -407,7 +415,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Olufunso.jpg" alt="Olufunso Ekundayo">
 											</div>
@@ -421,7 +429,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Ayeni.jpg" alt="Ayeni">
 											</div>
@@ -435,7 +443,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Ugo.jpg" alt="Ugo Ifezue">
 											</div>
@@ -449,7 +457,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/dummy.jpg" alt="Ifeoluwa King">
 											</div>
@@ -463,7 +471,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Seun.jpg" alt="Seun lanlege">
 											</div>
@@ -477,7 +485,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/Samuel.jpg" alt="Samuel Omidiora">
 											</div>
@@ -491,7 +499,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/charles.jpg" alt="Member Image">
 											</div>
@@ -505,7 +513,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/wunmi.jpg" alt="Olawunmi George">
 											</div>
@@ -519,7 +527,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/tosin.jpg" alt="Tosin Akinbobola<">
 											</div>
@@ -533,7 +541,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/emmanuel.jpg" alt="Emmanuel Nwamaife">
 											</div>
@@ -547,7 +555,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/mick.jpg" alt="Michael edobor">
 											</div>
@@ -561,7 +569,7 @@
 
 								<div class="item">
 									<div class="singleMember text-center twline">
-										<a href="#">
+										<a >
 											<div class="avater">
 												<img src="images/member/promise.jpg" alt="Promise Udenkwor">
 											</div>
@@ -629,6 +637,7 @@
 	<script type="text/javascript" src="js/d3.v4.min.js"></script>
 	<script type="text/javascript" src="js/SVGPie3D.js"></script>
   <script type="text/javascript" src="js/Scrollbar.js"></script>
+	<script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
