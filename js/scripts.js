@@ -18,7 +18,7 @@
         {
             label: {
                 number: "45%",
-                sub: "Crowdfunding"
+                sub: "SUP mining reward"
             },
             color: "#866ecc",
             value: "45",
