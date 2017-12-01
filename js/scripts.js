@@ -153,3 +153,21 @@ jQuery(function () {
     };
 
 }(jQuery));
+
+
+$(document).ready(function() {
+      var date = 'Dec 15 2017 09:00:00';
+      date = new Date(date);
+
+      $('#bounty_date').text(
+        date
+        //date.toDateString()
+      );
+
+      $('button.generalBtn').tooltipster({
+        animation: 'fade',
+        theme: 'tooltipster-punk',
+        trigger: 'click',
+        interactive:true,
+      });
+  });

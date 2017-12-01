@@ -27,6 +27,9 @@
 	<meta content="" name="Description">
 	<!-- fav icon -->
 	<link href="" rel="shortcut icon">
+	<!-- tooltipster -->
+	<link href="css/tooltipster.bundle.min.css" rel="stylesheet" type="text/css">
+	<link href="css/themes/tooltipster-sideTip-punk.min.css" rel="stylesheet" type="text/css">
 	<!-- css => Vendor sheet -->
 	<link href="css/vendor.min.css" media="screen" rel="stylesheet" type="text/css">
 	<!-- css => style sheet -->
@@ -60,7 +63,12 @@
 								dapps Pokereum and other dapps in stealth development. At the initial and current state of SuperDAO, SUP are called
 								promissory tokens. You can earn SUP bounties by doing valuable peer reviewed tasks for the organization.
 							</p>
-							<button class="generalBtn">Earn Superneum Bounties</button>
+							<button class="generalBtn" data-tooltip-content="#tooltip_content">Earn Superneum Bounties</button>
+							<div class="tooltip_templates">
+							    <span id="tooltip_content">
+							        <img src="images/icons/calenderIcon.png" style="float:left;margin-right:1.5rem;" /> <strong id="bounty_date"></strong>
+							    </span>
+							</div>
 						</div><!-- end of sectionTitle -->
 					</div><!-- end of col12 -->
 				</div><!-- end of row -->
@@ -629,6 +637,7 @@
 	<script type="text/javascript" src="js/d3.v4.min.js"></script>
 	<script type="text/javascript" src="js/SVGPie3D.js"></script>
   <script type="text/javascript" src="js/Scrollbar.js"></script>
+	<script type="text/javascript" src="js/tooltipster.bundle.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
