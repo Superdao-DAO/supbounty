@@ -156,7 +156,7 @@ jQuery(function () {
 
 
 $(document).ready(function() {
-      var date = 'Dec 15 2017 09:00:00';
+      var date = 'FEB 2018';
       date = new Date(date);
 
       $('#bounty_date').text(
